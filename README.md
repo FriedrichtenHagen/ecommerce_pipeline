@@ -7,16 +7,25 @@ This project was part of the data engineering zoom camp 2024.
 The dataset chosen is [Ecommerce Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download).
 
 
+Project next steps:
+- rethink the api choice
+- Write guide for setting up dev invironment in VM
+- goal is to write as I go 
+    - gcp, docker, docker compose
+    - terraform for gcp? 
+    - how to import api to gcp with mage
+
 
 Todo:
 - set up gcp vm environment
 - install terraform
 - use mage (?) 
     - write python script to download kaggle dataset https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download
-    - push to bigquery
-- use dbt cloud to transform
-- maybe also use currency api to convert all sums to euro?
+    - push gcp storage
+- use dbt cloud to move to bigquery and transform
+    - maybe also use currency api to convert all sums to euro?
 - Display results in looker studio
+    - create a map graph based on country code
 
 
 

@@ -55,11 +55,32 @@ IAM & Admin > Service Accounts > Create Service Account
 
 ![Untitled](images/service_account.png)
 
+Create a service account key and add it to your .gitignore (important!). We will need this key later. 
+
+Enable Compute Engine API and create a VM. 
+![Untitled](images/compute_engine.png)
+
+### Create a virtual machine:
+The following settings should be sufficient (choose a region near you):
+![Untitled](images/vm_setting.png)
+OS: Ubuntu 20.04 LTS
+![Untitled](images/boot_disk.png)
+
+### Set up SSH to VM
+Create a pair of ssh keys using this command in bash (replace KEYFILE_NAME and USER_NAME):
+```ssh-keygen -t rsa -f KEYFILE_NAME -C USER_NAME -b 2048```
 
 
 
 
-Link to the Looker Studio Dashboard
+
+
+
+
+
+
+
+
 
 
 ## Project Description
